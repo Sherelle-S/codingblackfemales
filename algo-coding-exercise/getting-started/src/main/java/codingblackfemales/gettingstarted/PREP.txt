@@ -1,0 +1,29 @@
+PERAMETERS
+
+The perameters for the code are:
+
+RESULTS
+
+I am expecting the following results:
+the initial loop runs once,
+it sees the condition that if the order count is greater than 20, to take no action.
+as the order count is currently 0 it misses this condition, 
+NEXT conditon - if active orders is greater than 0 if the option for active orders is present cancel the order, as there is no current order this step is skipped on this loop *Check with tobin if we need to acknowledge this*
+I do belive this is where i code in my own cancellation algo.
+else take no action, and close loop.
+Original loop as the order count is greater it goes to the next conditional of the original loop,
+bid level goes up by 1, one share is purchased.
+
+it exit the loop,
+
+the loop runs again, again total orders os less than 20, it goes to the next case 
+as this time the active order conditional is met, order is 1. which is greater than 0, we cancel the order.
+
+
+EXAMPLES
+
+PSUDOCODE
+
+
+
+WRITE A MAIN PROGRAMM AND ADD THE FILES create the objects and use them
