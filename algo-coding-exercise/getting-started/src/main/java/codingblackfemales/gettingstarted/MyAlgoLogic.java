@@ -35,8 +35,9 @@ public class MyAlgoLogic implements AlgoLogic {
         // CreateChildOrder createChildOrder = new CreateChildOrder(null, 10, 25);
        
         CreateChildOrder createChildOrder = new CreateChildOrder(Side.Buy, 100, 5000);
-// what is side 
+// what is side?
 // where do we put the main class.
+// how do we access side?
 // 
 
 // System.out.println(side.Buy);
