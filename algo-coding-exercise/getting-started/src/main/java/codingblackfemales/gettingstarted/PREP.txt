@@ -27,3 +27,93 @@ PSUDOCODE
 
 
 WRITE A MAIN PROGRAMM AND ADD THE FILES create the objects and use them
+
+
+
+google  it is in the deliverable
+
+articluate waht the issue is telling messages
+
+if a doesnt work, then go to b then go to c.
+
+
+
+package codingblackfemales.gettingstarted;
+
+import codingblackfemales.action.Action;
+import codingblackfemales.action.CreateChildOrder;
+import codingblackfemales.action.NoAction;
+import codingblackfemales.algo.AddCancelAlgoLogic;
+import codingblackfemales.algo.AlgoLogic;
+import codingblackfemales.algo.PassiveAlgoLogic;
+import codingblackfemales.sotw.SimpleAlgoState;
+import codingblackfemales.util.Util;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import messages.order.Side;
+
+
+public class MyAlgoLogic implements AlgoLogic {
+
+    private static final Logger logger = LoggerFactory.getLogger(MyAlgoLogic.class);
+
+    @Override
+    public Action evaluate(SimpleAlgoState state) {
+
+        var orderBookAsString = Util.orderBookToString(state);
+
+        logger.info("[MYALGO] The state of the order book is:\n" + orderBookAsString);
+        // System.out.println(state.getActiveChildOrders());
+// state.getActiveChildOrders();
+//  return state.getChildOrders();
+        /********
+         *
+         * Add your logic here....
+         *if condition is buy passiveAlgoLogic to buy
+         if current OrderBook = 0{
+            return passiveAlgoLogic();
+         }else if (currentOrderBook > 0){
+            return cancel.logic()
+         }
+         */
+
+        //  find class to implement new classToImplement();
+        // Thing thing = new Thing(perameters);
+        // Thing.Avtion();
+        // state.getActiveChildOrders();
+        // return NoAction.NoAction;
+        boolean shouldCreateOrder = /* Your logic here based on market data */;
+
+        if (shouldCreateOrder) {
+            // Create a child order
+            CreateChildOrder createChildOrder = new CreateChildOrder(
+                    CreateChildOrder.Side.BUY, // or SELL
+                    0.1, // quantity
+                    50000.0 // price
+            );
+            return createChildOrder;
+        }
+    }
+    public static void main(String[] args) {
+        // // return state.getActiveChildOrders() < 0 ? PassiveAlgoLogic.Action() : AddCancelAlgoLogic.Action();
+        // // MyAlgoLogic myAlgoLogic = new MyAlgoLogic();
+        // // System.out.println(MyAlgoLogic.evaluate());
+        // AlgoLogic myAlgoLogic = new MyAlgoLogic();
+
+        // // Simulate getting a SimpleAlgoState (this would be provided by your framework)
+        // SimpleAlgoState state = new SimpleAlgoState(); 
+
+        // // Evaluate your algorithm logic using the provided state
+        // Action action = myAlgoLogic.evaluate(state);
+
+        // // Print the action or perform further processing based on the action
+        // System.out.println("Action: " + action);
+        Side side = Side.Buy; // Use Side.Sell for a sell order
+long quantity = 100;   // Set the quantity of the order
+long price = 5000;     // Set the price of the order
+
+// Create a new child order with the specified parameters
+CreateChildOrder childOrder = new CreateChildOrder(side.Sell, 1, 2);
+    }
+    
+}
