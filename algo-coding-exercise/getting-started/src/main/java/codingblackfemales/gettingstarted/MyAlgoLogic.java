@@ -26,9 +26,11 @@ public class MyAlgoLogic implements AlgoLogic {
     @Override
     public Action evaluate(SimpleAlgoState state) {
 
+        logger.info("[MYALGO] In Algo Logic.... HeLlO");
+
         var orderBookAsString = Util.orderBookToString(state);
 
-        logger.info("[MYALGO] The state of the order book is:\n" + orderBookAsString);
+        logger.info("[MYALGO] The state of the order book is:\n " + orderBookAsString);
 
         /********
          *
@@ -64,6 +66,8 @@ public class MyAlgoLogic implements AlgoLogic {
 
         if(totalOrderCount < 4){
             // if total order count is less than 4 create a child order
+            logger.info("[MYALGO] Have:" + state.getChildOrders().size() + " children, want 4, joining passive side of book with: " + quantity + " @ " + price);
+            // logger logs order and logs what you want to happen
             return new CreateChildOrder(Side.BUY, quantity, price);
            
         }else if(activeOrders.size() > 0){
@@ -75,6 +79,8 @@ public class MyAlgoLogic implements AlgoLogic {
                 // if the above variable is present
                 var childOrder = option.get();
                 // get the child order
+                logger.info("[MYALGO] Cancelling order:" + childOrder);
+                // logs info for child order
                 return new CancelChildOrder(childOrder);
                 // and cancel it.
             }else{
@@ -82,7 +88,8 @@ public class MyAlgoLogic implements AlgoLogic {
                 // or else preform no action
             }
         }
-          
+        logger.info("[MYALGO] Have:" + state.getChildOrders().size() + " children, want 4, done.");
+        // logs the order and what was returned
         return NoAction.NoAction;
         // for the outer loop on the first conditional we requir no action be taken if the first condition is not met.
     }

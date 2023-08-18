@@ -28,7 +28,7 @@ public class MyAlgoBackTest extends AbstractAlgoBackTest {
         send(createTick());
 
         //ADD asserts when you have implemented your algo logic
-        //assertEquals(container.getState().getChildOrders().size(), 3);
+        // assertEquals(container.getState().getChildOrders().size(), 3);
 
         //when: market data moves towards us
         send(createTick2());
@@ -41,5 +41,9 @@ public class MyAlgoBackTest extends AbstractAlgoBackTest {
         //and: check that our algo state was updated to reflect our fills when the market data
         //assertEquals(225, filledQuantity);
     }
+
+    // public void testTwo() throws Exception{
+
+    // }
 
 }
