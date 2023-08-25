@@ -1,6 +1,9 @@
 package codingblackfemales.gettingstarted;
 
 import codingblackfemales.algo.AlgoLogic;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 
@@ -15,7 +18,7 @@ import org.junit.Test;
  *
  */
 public class MyAlgoTest extends AbstractAlgoTest {
-// writing tests start here
+// writing tests start
     @Override
     public AlgoLogic createAlgoLogic() {
         //this adds your algo logic to the container classes
@@ -30,7 +33,8 @@ public class MyAlgoTest extends AbstractAlgoTest {
         send(createTick());
 
         //simple assert to check we had 3 orders created
-        // assertEquals(container.getState().getChildOrders().size(), 3);
+        assertEquals(container.getState().getChildOrders().size(), 4);
+        
     }
 
     // mvn test > Output.txt
