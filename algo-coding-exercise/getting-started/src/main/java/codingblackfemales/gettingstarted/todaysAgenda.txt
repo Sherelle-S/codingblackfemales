@@ -1,0 +1,7 @@
+.look at adding a setTimeOut logic that checks the market every 15 minutes. 
+add results to an arraylist
+traverse the list once list size becomes > 3. check last 3 entries, if price has increased consecutiveley sell. 
+if price has decreased consecutiveley buy.
+
+
+mvn test > Output.txt
