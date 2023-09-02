@@ -8,8 +8,11 @@ import java.util.concurrent.TimeUnit;
 
 import codingblackfemales.container.AlgoContainer;
 import codingblackfemales.marketdata.gen.RandomMarketDataGenerator;
+import messages.marketdata.Venue;
 
 public class TimedLogic {
+
+  Venue venue = new Venue();
 
       //   // Arraylist comprised of data harvested from the market every 15 minutes
       // List<Long>marketMonitor = new ArrayList<Long>();
@@ -51,7 +54,14 @@ public class TimedLogic {
     //  marketMonitor.add(marketUpdate);
     public static void main(String[] args) {
       // RandomMarketDataGenerator randomMarketDataGenerator = new RandomMarketDataGenerator(, null, marketUpdate, marketUpdate, marketUpdate);
-    RandomMarketDataGenerator randomMarketDataGenerator = new RandomMarketDataGenerator(vod.l, null, 0, 0, 0);
+      // construct a venue and then parse it to random market generator:
+
+       Venue venue = new Venue(1);
+       venue.value();
+
+    RandomMarketDataGenerator randomMarketDataGenerator = new RandomMarketDataGenerator(5032, venue, 10, 13, 5);
+
+    randomMarketDataGenerator.
     // find / create market data object, do  a loop. if it increases 3 times execute a cell. 
     // venue is intergers 1 london, 2paris, 3amstadam
   

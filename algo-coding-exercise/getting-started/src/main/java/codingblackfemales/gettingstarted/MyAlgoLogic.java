@@ -12,6 +12,9 @@ import codingblackfemales.sotw.marketdata.BidLevel;
 import codingblackfemales.util.Util;
 import messages.order.Side;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -92,6 +95,11 @@ public class MyAlgoLogic implements AlgoLogic {
         // logs the order and what was returned
         return NoAction.NoAction;
         // for the outer loop on the first conditional we requir no action be taken if the first condition is not met.
+
+
+        /*this is the logic for the algo that should actually trade below */
+
+      
     }
     // public static void main(String[] args) {
     //     System.out.println("Hello world");

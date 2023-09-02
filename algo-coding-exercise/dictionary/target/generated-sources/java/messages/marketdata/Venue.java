@@ -47,7 +47,7 @@ public enum Venue
             case 3: return XAMS;
             case -2147483648: return NULL_VAL;
         }
-
+ 
         throw new IllegalArgumentException("Unknown value: " + value);
     }
 }

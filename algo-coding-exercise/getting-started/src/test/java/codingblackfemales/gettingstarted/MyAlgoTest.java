@@ -3,6 +3,8 @@ package codingblackfemales.gettingstarted;
 import codingblackfemales.algo.AlgoLogic;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -34,8 +36,59 @@ public class MyAlgoTest extends AbstractAlgoTest {
 
         //simple assert to check we had 3 orders created
         assertEquals(container.getState().getChildOrders().size(), 4);
+        assertNotEquals(0, 0, 0);    
+        assertTrue(null, false);
+    }
+
+    
+
+    // @Test
+    // public void /*name the method what the test does */(){
+    //     // MyAlgoLogic myAlgoLogic = new MyAlgoLogic();
+    //     // new instance of algoLogic
+    //     // can also do
+
+    //     send(createTick());
+    //     var myAlgoLogic = new MyAlgoLogic();
+    //     myAlgoLogic.evaluate(null);
+    // }
+
+    @Test
+    public void tooManyOrdersTest() throws Exception{
+        try {
+            send(createTick());
+        
+        var myAlgoLogic = new MyAlgoTest();
+                assertEquals(container.getState().getActiveChildOrders().size(), 0);
+// create test to see what happens if more than  child orders are created 
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
         
     }
 
+        
+        @Test
+        public void checkIfOrdersCancelled(){
+          try {
+            send(createTick());
+        
+        var myAlgoLogic = new MyAlgoTest();
+                assertEquals(container.getState().getActiveChildOrders().size(), 0);
+// create test to see what happens if more than  child orders are created 
+        } catch (Exception e) {
+            // TODO: handle exception
+        
+            // find what holds cancelled child orders again 
+        }
+    }
+
+        @Test
+        public void priceCheckTest(){
+            // create test to see what happens if price is too low.
+        }
+        
+
+    // created around 4 more tests
     // mvn test > Output.txt
 }
