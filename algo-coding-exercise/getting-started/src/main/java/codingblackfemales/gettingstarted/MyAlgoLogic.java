@@ -4,7 +4,9 @@ import codingblackfemales.action.Action;
 import codingblackfemales.action.CancelChildOrder;
 import codingblackfemales.action.CreateChildOrder;
 import codingblackfemales.action.NoAction;
+import codingblackfemales.algo.AddCancelAlgoLogic;
 import codingblackfemales.algo.AlgoLogic;
+import codingblackfemales.marketdata.gen.MarketDataGenerator;
 import codingblackfemales.sotw.OrderState;
 import codingblackfemales.sotw.SimpleAlgoState;
 import codingblackfemales.sotw.marketdata.AskLevel;
@@ -17,6 +19,8 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.Adapter;
 
 public class MyAlgoLogic implements AlgoLogic {
 
@@ -68,24 +72,44 @@ public class MyAlgoLogic implements AlgoLogic {
          
 
         if(totalOrderCount < 4){
+            System.out.println("total order count is" +totalOrderCount);
+            System.out.println("active orders are " +state.getActiveChildOrders().toString());
             // if total order count is less than 4 create a child order
             logger.info("[MYALGO] Have:" + state.getChildOrders().size() + " children, want 4, joining passive side of book with: " + quantity + " @ " + price);
             // logger logs order and logs what you want to happen
+            // logger.info("[MYALGO] is this state evaluated "+ evaluate(state));
             return new CreateChildOrder(Side.BUY, quantity, price);
            
         }else if(activeOrders.size() > 0){
             // if active orders is greater than 0, it meets the terms to cancel them;
             final var option = activeOrders.stream().findFirst();
+            /* get rid*/logger.info("[MYALGO] total order count is" + totalOrderCount);
+            logger.info("[MYALGO] active orders are --" + state.getActiveChildOrders());
+            logger.info("[MYALGO] active orders are:" + activeOrders);
+            logger.info("[MYALGO] lets look at state" + state.toString());
+
+             System.out.println("total order count is" +totalOrderCount);
+            System.out.println("active orders are " +state.getActiveChildOrders().toString());
             // variable comes from cancel child order file, which finds the first object int the stream.
 
             if (option.isPresent()){
                 // if the above variable is present
+                logger.info("[MYALGO] option is present total order count is" + totalOrderCount);
+                logger.info("[MYALGO] option is present, active orders are "+ state.getActiveChildOrders().toString());
+                 System.out.println("total order count is" +totalOrderCount);
+            System.out.println("active orders are " +state.getActiveChildOrders().toString());
                 var childOrder = option.get();
                 // get the child order
                 logger.info("[MYALGO] Cancelling order:" + childOrder);
                 // logs info for child order
+                logger.info("[MYALGO] option is present active orders are:" + activeOrders);
+                
                 return new CancelChildOrder(childOrder);
+
+                
                 // and cancel it.
+                //  System.out.println("total order count is" +totalOrderCount);
+            // System.out.println("active orders are " +state.getActiveChildOrders().toString());
             }else{
                 return NoAction.NoAction;
                 // or else preform no action
@@ -106,6 +130,15 @@ public class MyAlgoLogic implements AlgoLogic {
 
     //     MyAlgoLogic myAlgoLogic = new MyAlgoLogic();
  
-    //     myAlgoLogic.evaluate(OrderState.CANCELLED);
+    //     // myAlgoLogic.evaluate(OrderState.CANCELLED);
+    //     // myAlgoLogic.C
+    //     AlgoLogic algoLogic = new AlgoLogic();
+    //     Container container = new 
+    //     MarketDataGenerator() {
+    //         // try to use this and tie it to Timed logic to get your algo to run
+    //         // create a job that triggers it at incraments 
+    //         // maybe reduve the lag between the triggers
+    //         // webhook to thrid party or open sourced data and stretch like that
+    //     }
     // }
 }

@@ -7,15 +7,12 @@ messages\order\MetaAttribute.class
 messages\order\MessageHeaderDecoder.class
 messages\marketdata\BookUpdateEncoder$AskBookEncoder.class
 messages\marketdata\AskBookUpdateEncoder$AskBookEncoder.class
-messages\marketdata\BidBookUpdateDecoder$BidBookDecoder.class
 messages\marketdata\MetaAttribute.class
 messages\order\Side.class
 messages\order\CreateOrderEncoder.class
 messages\marketdata\BookUpdateEncoder.class
 messages\marketdata\Venue.class
 messages\order\PendingOrderDecoder.class
-messages\marketdata\BookUpdateDecoder$AskBookDecoder.class
-messages\marketdata\BookUpdateDecoder$BidBookDecoder.class
 messages\order\FillOrderDecoder.class
 messages\marketdata\BidBookUpdateEncoder$BidBookEncoder.class
 messages\order\PartialFillOrderEncoder.class
@@ -30,7 +27,6 @@ messages\marketdata\GroupSizeEncodingDecoder.class
 messages\order\CancelAckedOrderDecoder.class
 messages\marketdata\Source.class
 messages\order\AckedOrderEncoder.class
-messages\marketdata\BookUpdateDecoder.class
 messages\marketdata\InstrumentStatus.class
 messages\marketdata\AskBookUpdateDecoder.class
 messages\order\CancelOrderDecoder.class
