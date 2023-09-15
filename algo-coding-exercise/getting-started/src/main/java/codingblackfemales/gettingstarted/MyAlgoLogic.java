@@ -15,6 +15,7 @@ import codingblackfemales.util.Util;
 import messages.order.Side;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -84,9 +85,9 @@ public class MyAlgoLogic implements AlgoLogic {
             // if active orders is greater than 0, it meets the terms to cancel them;
             final var option = activeOrders.stream().findFirst();
             /* get rid*/logger.info("[MYALGO] total order count is" + totalOrderCount);
-            logger.info("[MYALGO] active orders are --" + state.getActiveChildOrders());
-            logger.info("[MYALGO] active orders are:" + activeOrders);
-            logger.info("[MYALGO] lets look at state" + state.toString());
+            logger.info("[MYALGO] active orders are --" + state.getActiveChildOrders().toString());
+            logger.info("[MYALGO] active orders are:" + activeOrders.toString());
+            // logger.info("[MYALGO] lets look at state" + Arrays.toString(state));
 
              System.out.println("total order count is" +totalOrderCount);
             System.out.println("active orders are " +state.getActiveChildOrders().toString());
@@ -95,9 +96,9 @@ public class MyAlgoLogic implements AlgoLogic {
             if (option.isPresent()){
                 // if the above variable is present
                 logger.info("[MYALGO] option is present total order count is" + totalOrderCount);
-                logger.info("[MYALGO] option is present, active orders are "+ state.getActiveChildOrders().toString());
+                logger.info("[MYALGO] option is present, active orders are "+ state.getActiveChildOrders());
                  System.out.println("total order count is" +totalOrderCount);
-            System.out.println("active orders are " +state.getActiveChildOrders().toString());
+            System.out.println("active orders are " + state.getActiveChildOrders());
                 var childOrder = option.get();
                 // get the child order
                 logger.info("[MYALGO] Cancelling order:" + childOrder);
