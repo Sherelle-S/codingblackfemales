@@ -26,16 +26,13 @@ import com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.Adapter;
 public class MyAlgoLogic implements AlgoLogic {
 
     private static final Logger logger = LoggerFactory.getLogger(MyAlgoLogic.class);
-   
-           
-
-
-
+              
     @Override
     public Action evaluate(SimpleAlgoState state) {
 
         logger.info("[MYALGO] In Algo Logic.... HeLlO");
 
+        // below now called book
         var orderBookAsString = Util.orderBookToString(state);
 
         logger.info("[MYALGO] The state of the order book is:\n " + orderBookAsString);
@@ -45,27 +42,28 @@ public class MyAlgoLogic implements AlgoLogic {
          * Add your logic here....
          *
          */
-        // final AskLevel farTouch = state.getAskAt(0);
-        // long quantity = farTouch.quantity;
-        // long price = farTouch.price;
+        // below is sniper logic
+        final AskLevel farTouch = state.getAskAt(0);
+        long quantity = 10;
+        long price = farTouch.price;
 
         
         
-        // //to check if its working
+        //* code not in final to check if its working
         // if(state.getChildOrders().size() < 4){
         //     System.out.println("there are orders");
         // }else{
         //     System.out.println("Noting there");
         // }
-         // Get the current best bid price from the order book
+        //  // Get the current best bid price from the order book
 
-         final BidLevel nearTouch = state.getBidAt(0);
+        //  final BidLevel nearTouch = state.getBidAt(0);
         //  long currentPrice = state.getBestBidPrice();
 
-         // Define your target price and quantity chose 10 to create a small order
-         long quantity = 10;
-        //  chose nearTouch price 
-         long price = nearTouch.price;
+        //  // Define your target price and quantity chose 10 to create a small order
+        //  long quantity = 10;
+        // //  chose nearTouch price 
+        //  long price = nearTouch.price;
         //  assigned the state.gteChildOrders().size() method to a shorter variable for ease of reusability. 
          var totalOrderCount = state.getChildOrders().size();
         //  did the same for get child orders. variable names have come from within the codebase for consistency.
@@ -73,32 +71,37 @@ public class MyAlgoLogic implements AlgoLogic {
          
 
         if(totalOrderCount < 4){
-            System.out.println("total order count is" +totalOrderCount);
-            System.out.println("active orders are " +state.getActiveChildOrders().toString());
+            // System.out.println(nearTouch +"near touch");
+            // System.out.println("near touch price is "+nearTouch.price);
+            // System.out.println("near touch quantity is "+nearTouch.quantity);
+            // System.out.println("total order count is " +totalOrderCount);
+            // System.out.println("active orders are " +activeOrders);
             // if total order count is less than 4 create a child order
             logger.info("[MYALGO] Have:" + state.getChildOrders().size() + " children, want 4, joining passive side of book with: " + quantity + " @ " + price);
             // logger logs order and logs what you want to happen
+            // System.out.println("state is evaluated at "+evaluate(state)); 
+            // causes stack overflow
             // logger.info("[MYALGO] is this state evaluated "+ evaluate(state));
             return new CreateChildOrder(Side.BUY, quantity, price);
            
-        }else if(activeOrders.size() > 0){
+        }else if(activeOrders.size() > 4){
             // if active orders is greater than 0, it meets the terms to cancel them;
             final var option = activeOrders.stream().findFirst();
             /* get rid*/logger.info("[MYALGO] total order count is" + totalOrderCount);
-            logger.info("[MYALGO] active orders are --" + state.getActiveChildOrders().toString());
-            logger.info("[MYALGO] active orders are:" + activeOrders.toString());
+            // logger.info("[MYALGO] active orders are --" + state.getActiveChildOrders().toString());
+            // logger.info("[MYALGO] active orders are:" + activeOrders.toString());
             // logger.info("[MYALGO] lets look at state" + Arrays.toString(state));
 
              System.out.println("total order count is" +totalOrderCount);
-            System.out.println("active orders are " +state.getActiveChildOrders().toString());
+            // System.out.println("active orders are " +state.getActiveChildOrders().toString());
             // variable comes from cancel child order file, which finds the first object int the stream.
 
             if (option.isPresent()){
                 // if the above variable is present
                 logger.info("[MYALGO] option is present total order count is" + totalOrderCount);
                 logger.info("[MYALGO] option is present, active orders are "+ state.getActiveChildOrders());
-                 System.out.println("total order count is" +totalOrderCount);
-            System.out.println("active orders are " + state.getActiveChildOrders());
+                // System.out.println("total order count is" +totalOrderCount);
+                // System.out.println("active orders are " + state.getActiveChildOrders());
                 var childOrder = option.get();
                 // get the child order
                 logger.info("[MYALGO] Cancelling order:" + childOrder);

@@ -1,10 +1,13 @@
 package codingblackfemales.gettingstarted;
 
 import codingblackfemales.algo.AlgoLogic;
+import codingblackfemales.orderbook.order.Order;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
+
+import java.sql.Time;
 
 import org.junit.Test;
 
@@ -20,6 +23,8 @@ import org.junit.Test;
  *
  */
 public class MyAlgoTest extends AbstractAlgoTest {
+
+    
 // writing tests start
     @Override
     public AlgoLogic createAlgoLogic() {
@@ -41,12 +46,27 @@ public class MyAlgoTest extends AbstractAlgoTest {
         // see if you can see 'assert test with coverage' it will tell you how many lines that test is actually covering.'
     }
 
-//     @Test 
-//     public void testOneChildOrder() throws Exception{
-//         send(createTick());
-//         // assertEquals(container.getState().getChildOrders().contains(checkIfOrdersCancelled()));
-//         // assertEquals(container.getState().getChildOrders().size(), 4);
-//     }
+    // @Test 
+    // public void checkIfOrdersCancelled(){
+    //     var state = container.getState();
+    //     assertTrue("Order should be canceled", state.getChildOrders().contains("canceled"));
+    //     // getStatus().equals("canceled"));
+    // this test failed because it checks if order cancelled 
+//     Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! -- in codingblackfemales.gettingstarted.MyAlgoTest
+// codingblackfemales.gettingstarted.MyAlgoTest.checkIfOrdersCancelled -- Time elapsed: 0 s <<< FAILURE!
+// java.lang.AssertionError: Order should be canceled
+// 	at org.junit.Assert.fail(Assert.java:88)
+// 	at org.junit.Assert.assertTrue(Assert.java:41)
+// 	at codingblackfemales.gettingstarted.MyAlgoTest.checkIfOrdersCancelled(MyAlgoTest.java:49)
+
+    // }
+
+    // @Test 
+    // public void testOneChildOrder() throws Exception{
+    //     send(createTick());
+    //     // assertEquals(container.getState().getChildOrders().contains(checkIfOrdersCancelled()));
+    //     assertEquals(container.getState().getChildOrders().size(), 4);
+    // }
 
     
 

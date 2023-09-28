@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="codingblackfemales.gettingstarted.MyAlgoBackTest" time="0.475" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="codingblackfemales.gettingstarted.MyAlgoBackTest" time="0.504" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire4292644133652624768\surefirebooter-20230913142821321_26.jar C:\Users\admin\AppData\Local\Temp\surefire4292644133652624768 2023-09-13T14-28-15_705-jvmRun1 surefire-20230913142821321_24tmp surefire_2-20230913142821321_25tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire3521147637294168057\surefirebooter-20230928160135194_26.jar C:\Users\admin\AppData\Local\Temp\surefire3521147637294168057 2023-09-28T16-01-27_289-jvmRun1 surefire-20230928160135194_24tmp surefire_2-20230928160135194_25tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\getting-started\target\test-classes;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\getting-started\target\classes;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\algo\target\classes;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\dictionary\target\classes;C:\Users\admin\.m2\repository\org\agrona\agrona\1.16.0\agrona-1.16.0.jar;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\sequencer\target\classes;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\backtest\target\classes;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\collection\target\classes;C:\Users\admin\Desktop\Sherelles Stuff\UBS-Assignments\codingblackfemales\lessError\codingblackfemales\algo-coding-exercise\sequencer\target\test-classes;C:\Users\admin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\admin\.m2\repository\uk\co\real-logic\sbe-all\1.26.0\sbe-all-1.26.0.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\5.4.0\mockito-core-5.4.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.5\byte-buddy-agent-1.14.5.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-core\1.3.5\logback-core-1.3.5.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-classic\1.3.5\logback-classic-1.3.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire4292644133652624768\surefirebooter-20230913142821321_26.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire3521147637294168057\surefirebooter-20230928160135194_26.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -56,8 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testExampleBackTest" classname="codingblackfemales.gettingstarted.MyAlgoBackTest" time="0.1">
-    <system-out><![CDATA[14:28:22.042 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
+  <testcase name="testExampleBackTest" classname="codingblackfemales.gettingstarted.MyAlgoBackTest" time="0.107">
+    <system-out><![CDATA[16:01:35.924 [main] INFO  c.sequencer.consumer.LoggingConsumer - [1] 
 |----BID-----|
     100 @ 98
     200 @ 95
@@ -68,23 +68,23 @@
   5000 @ 115
   5600 @ 119
 
-14:28:22.058 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Processing Mkt Data Update
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=98,quantity=100)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=95,quantity=200)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=91,quantity=300)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=100,quantity=101)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=110,quantity=200)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=115,quantity=5000)
-14:28:22.058 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=119,quantity=5600)
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.058 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.058 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.058 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.929 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Processing Mkt Data Update
+16:01:35.930 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=98,quantity=100)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=95,quantity=200)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=91,quantity=300)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=100,quantity=101)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=110,quantity=200)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=115,quantity=5000)
+16:01:35.931 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=119,quantity=5600)
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
+16:01:35.932 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.933 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.936 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
     100 @ 98   101 @ 100
     200 @ 95   200 @ 110
@@ -92,392 +92,252 @@
           -   5600 @ 119
 |------------||-----------|
 
-total order count is0
-active orders are []
-14:28:22.073 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:0 children, want 4, joining passive side of book with: 10 @ 98
-14:28:22.073 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=98)
-14:28:22.073 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=98|quantity=10|side=BUY|orderId=2
-14:28:22.073 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Adding passive limit order to BID bookLimit(side=BUY,orderId=2,price=98,quantity=10)
-14:28:22.073 [main] INFO  c.o.visitor.MutatingAddOrderVisitor - [ORDERBOOK] + MktData(price=98,quantity=100)
-14:28:22.073 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.073 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=110
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.089 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] 
-|----BID-----|
-    110 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:110
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.940 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:0 children, want 4, joining passive side of book with: 10 @ 100
+16:01:35.948 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=100)
+16:01:35.949 [main] INFO  c.sequencer.consumer.LoggingConsumer - [2] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=10|side=BUY|orderId=2
+16:01:35.951 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=100,quantity=101)
+16:01:35.956 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Have found order we can match:MktData(price=100,quantity=101)(Limit(side=BUY,orderId=2,price=100,quantity=10))
+16:01:35.959 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Filled 10@100 for order:Limit(side=BUY,orderId=2,price=100,quantity=10)
+16:01:35.961 [main] INFO  c.orderbook.channel.OrderChannel - [ORDERBOOK] publishing fill to stream: [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=2|quantity=10|price=100
+16:01:35.962 [main] INFO  c.sequencer.consumer.LoggingConsumer - [3] [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=2|quantity=10|price=100
+16:01:35.965 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
-    110 @ 98   101 @ 100
+    100 @ 98   101 @ 100
     200 @ 95   200 @ 110
     300 @ 91  5000 @ 115
           -   5600 @ 119
 |------------||-----------|
 
-total order count is1
-active orders are [codingblackfemales.sotw.ChildOrder@66d18979]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:1 children, want 4, joining passive side of book with: 10 @ 98
-14:28:22.089 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=98)
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=98|quantity=10|side=BUY|orderId=3
-14:28:22.089 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Adding passive limit order to BID bookLimit(side=BUY,orderId=3,price=98,quantity=10)
-14:28:22.089 [main] INFO  c.o.visitor.MutatingAddOrderVisitor - [ORDERBOOK] + Limit(side=BUY,orderId=2,price=98,quantity=10)
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=120
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.089 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] 
-|----BID-----|
-    120 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:120
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.966 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:1 children, want 4, joining passive side of book with: 10 @ 100
+16:01:35.966 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=100)
+16:01:35.966 [main] INFO  c.sequencer.consumer.LoggingConsumer - [4] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=10|side=BUY|orderId=3
+16:01:35.966 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=100,quantity=91)
+16:01:35.966 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Have found order we can match:MktData(price=100,quantity=91)(Limit(side=BUY,orderId=3,price=100,quantity=10))
+16:01:35.966 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Filled 10@100 for order:Limit(side=BUY,orderId=3,price=100,quantity=10)
+16:01:35.966 [main] INFO  c.orderbook.channel.OrderChannel - [ORDERBOOK] publishing fill to stream: [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=3|quantity=10|price=100
+16:01:35.967 [main] INFO  c.sequencer.consumer.LoggingConsumer - [5] [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=3|quantity=10|price=100
+16:01:35.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
-    120 @ 98   101 @ 100
+    100 @ 98   101 @ 100
     200 @ 95   200 @ 110
     300 @ 91  5000 @ 115
           -   5600 @ 119
 |------------||-----------|
 
-total order count is2
-active orders are [codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:2 children, want 4, joining passive side of book with: 10 @ 98
-14:28:22.089 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=98)
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=98|quantity=10|side=BUY|orderId=4
-14:28:22.089 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Adding passive limit order to BID bookLimit(side=BUY,orderId=4,price=98,quantity=10)
-14:28:22.089 [main] INFO  c.o.visitor.MutatingAddOrderVisitor - [ORDERBOOK] + Limit(side=BUY,orderId=3,price=98,quantity=10)
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=130
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.089 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] 
-|----BID-----|
-    130 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:130
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.967 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:2 children, want 4, joining passive side of book with: 10 @ 100
+16:01:35.967 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=100)
+16:01:35.968 [main] INFO  c.sequencer.consumer.LoggingConsumer - [6] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=10|side=BUY|orderId=4
+16:01:35.968 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=100,quantity=81)
+16:01:35.968 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Have found order we can match:MktData(price=100,quantity=81)(Limit(side=BUY,orderId=4,price=100,quantity=10))
+16:01:35.968 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Filled 10@100 for order:Limit(side=BUY,orderId=4,price=100,quantity=10)
+16:01:35.968 [main] INFO  c.orderbook.channel.OrderChannel - [ORDERBOOK] publishing fill to stream: [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=4|quantity=10|price=100
+16:01:35.968 [main] INFO  c.sequencer.consumer.LoggingConsumer - [7] [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=4|quantity=10|price=100
+16:01:35.968 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.969 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
-    130 @ 98   101 @ 100
+    100 @ 98   101 @ 100
     200 @ 95   200 @ 110
     300 @ 91  5000 @ 115
           -   5600 @ 119
 |------------||-----------|
 
-total order count is3
-active orders are [codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:3 children, want 4, joining passive side of book with: 10 @ 98
-14:28:22.089 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=98)
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=98|quantity=10|side=BUY|orderId=5
-14:28:22.089 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Adding passive limit order to BID bookLimit(side=BUY,orderId=5,price=98,quantity=10)
-14:28:22.089 [main] INFO  c.o.visitor.MutatingAddOrderVisitor - [ORDERBOOK] + Limit(side=BUY,orderId=4,price=98,quantity=10)
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=140
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.089 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.089 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.089 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] 
-|----BID-----|
-    140 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:140
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.089 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.969 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:3 children, want 4, joining passive side of book with: 10 @ 100
+16:01:35.969 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CreateChildOrder(side=BUY,quantity=10,price=100)
+16:01:35.969 [main] INFO  c.sequencer.consumer.LoggingConsumer - [8] [CreateOrder](sbeTemplateId=4|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=33):instrumentId=0|price=100|quantity=10|side=BUY|orderId=5
+16:01:35.969 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=100,quantity=71)
+16:01:35.969 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Have found order we can match:MktData(price=100,quantity=71)(Limit(side=BUY,orderId=5,price=100,quantity=10))
+16:01:35.969 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Filled 10@100 for order:Limit(side=BUY,orderId=5,price=100,quantity=10)
+16:01:35.969 [main] INFO  c.orderbook.channel.OrderChannel - [ORDERBOOK] publishing fill to stream: [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=5|quantity=10|price=100
+16:01:35.970 [main] INFO  c.sequencer.consumer.LoggingConsumer - [9] [FillOrder](sbeTemplateId=10|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=24):orderId=5|quantity=10|price=100
+16:01:35.970 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.971 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
-    140 @ 98   101 @ 100
+    100 @ 98   101 @ 100
     200 @ 95   200 @ 110
     300 @ 91  5000 @ 115
           -   5600 @ 119
 |------------||-----------|
 
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] total order count is4
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are --[codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are:[codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present total order count is4
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present, active orders are [codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Cancelling order:codingblackfemales.sotw.ChildOrder@66d18979
-14:28:22.089 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present active orders are:[codingblackfemales.sotw.ChildOrder@66d18979, codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.089 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@66d18979)
-14:28:22.105 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=2
-14:28:22.105 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Cancelling order (id=:2)
-14:28:22.105 [main] INFO  c.o.visitor.CancelOrderVisitor - [ORDERBOOK] Cancelling order: Limit(side=BUY,orderId=2,price=98,quantity=10)
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=130
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.105 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.105 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] 
-|----BID-----|
-    130 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:130
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.105 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
- |----BID-----||----ASK----|
-    130 @ 98   101 @ 100
-    200 @ 95   200 @ 110
-    300 @ 91  5000 @ 115
-          -   5600 @ 119
-|------------||-----------|
-
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] total order count is4
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are --[codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are:[codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present total order count is4
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present, active orders are [codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Cancelling order:codingblackfemales.sotw.ChildOrder@bccb269
-14:28:22.105 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present active orders are:[codingblackfemales.sotw.ChildOrder@bccb269, codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.105 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@bccb269)
-14:28:22.105 [main] INFO  c.sequencer.consumer.LoggingConsumer - [12] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=3
-14:28:22.105 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Cancelling order (id=:3)
-14:28:22.105 [main] INFO  c.o.visitor.CancelOrderVisitor - [ORDERBOOK] Cancelling order: Limit(side=BUY,orderId=3,price=98,quantity=10)
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.105 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=120
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.111 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [13] 
-|----BID-----|
-    120 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:120
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
- |----BID-----||----ASK----|
-    120 @ 98   101 @ 100
-    200 @ 95   200 @ 110
-    300 @ 91  5000 @ 115
-          -   5600 @ 119
-|------------||-----------|
-
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] total order count is4
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are --[codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are:[codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present total order count is4
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present, active orders are [codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Cancelling order:codingblackfemales.sotw.ChildOrder@609cd4d8
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present active orders are:[codingblackfemales.sotw.ChildOrder@609cd4d8, codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@609cd4d8)
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [14] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=4
-14:28:22.111 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Cancelling order (id=:4)
-14:28:22.111 [main] INFO  c.o.visitor.CancelOrderVisitor - [ORDERBOOK] Cancelling order: Limit(side=BUY,orderId=4,price=98,quantity=10)
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=110
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.111 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [15] 
-|----BID-----|
-    110 @ 98
-    200 @ 95
-    300 @ 91
-|----ASK-----|
-   101 @ 100
-   200 @ 110
-  5000 @ 115
-  5600 @ 119
-
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:110
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
- |----BID-----||----ASK----|
-    110 @ 98   101 @ 100
-    200 @ 95   200 @ 110
-    300 @ 91  5000 @ 115
-          -   5600 @ 119
-|------------||-----------|
-
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] total order count is4
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are --[codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] active orders are:[codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present total order count is4
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present, active orders are [codingblackfemales.sotw.ChildOrder@13b6aecc]
-total order count is4
-active orders are [codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Cancelling order:codingblackfemales.sotw.ChildOrder@13b6aecc
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] option is present active orders are:[codingblackfemales.sotw.ChildOrder@13b6aecc]
-14:28:22.111 [main] INFO  c.container.Actioner - [ALGO] Actioner, sending action:CancelChildOrder(codingblackfemales.sotw.ChildOrder@13b6aecc)
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [16] [CancelOrder](sbeTemplateId=5|sbeSchemaId=2|sbeSchemaVersion=0|sbeBlockLength=8):orderId=5
-14:28:22.111 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Cancelling order (id=:5)
-14:28:22.111 [main] INFO  c.o.visitor.CancelOrderVisitor - [ORDERBOOK] Cancelling order: Limit(side=BUY,orderId=5,price=98,quantity=10)
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=100
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=101
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
-14:28:22.111 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
-14:28:22.111 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [17] 
+16:01:35.971 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.971 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=110,quantity=200)
+16:01:35.971 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=110,quantity=200)(Limit(side=BUY,orderId=5,price=100,quantity=10))
+16:01:35.971 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=115,quantity=5000)
+16:01:35.971 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=115,quantity=5000)(Limit(side=BUY,orderId=5,price=100,quantity=10))
+16:01:35.971 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=119,quantity=5600)
+16:01:35.972 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=119,quantity=5600)(Limit(side=BUY,orderId=5,price=100,quantity=10))
+16:01:35.972 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=100
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=61
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
+16:01:35.973 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
+16:01:35.974 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
+16:01:35.974 [main] INFO  c.sequencer.consumer.LoggingConsumer - [10] 
 |----BID-----|
     100 @ 98
     200 @ 95
     300 @ 91
 |----ASK-----|
-   101 @ 100
+    61 @ 100
    200 @ 110
   5000 @ 115
   5600 @ 119
 
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:101
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.974 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
+16:01:35.974 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
+16:01:35.974 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.974 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:61
+16:01:35.974 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
+16:01:35.975 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
+16:01:35.975 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.975 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.975 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
-    100 @ 98   101 @ 100
+    100 @ 98    61 @ 100
     200 @ 95   200 @ 110
     300 @ 91  5000 @ 115
           -   5600 @ 119
 |------------||-----------|
 
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
-14:28:22.111 [main] INFO  c.sequencer.consumer.LoggingConsumer - [18] 
+16:01:35.975 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.975 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=110,quantity=200)
+16:01:35.975 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=110,quantity=200)(Limit(side=BUY,orderId=4,price=100,quantity=10))
+16:01:35.975 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=115,quantity=5000)
+16:01:35.975 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=115,quantity=5000)(Limit(side=BUY,orderId=4,price=100,quantity=10))
+16:01:35.976 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=119,quantity=5600)
+16:01:35.976 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=119,quantity=5600)(Limit(side=BUY,orderId=4,price=100,quantity=10))
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=100
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=61
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
+16:01:35.976 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
+16:01:35.976 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
+16:01:35.977 [main] INFO  c.sequencer.consumer.LoggingConsumer - [11] 
+|----BID-----|
+    100 @ 98
+    200 @ 95
+    300 @ 91
+|----ASK-----|
+    61 @ 100
+   200 @ 110
+  5000 @ 115
+  5600 @ 119
+
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:61
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
+16:01:35.977 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.977 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.977 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+ |----BID-----||----ASK----|
+    100 @ 98    61 @ 100
+    200 @ 95   200 @ 110
+    300 @ 91  5000 @ 115
+          -   5600 @ 119
+|------------||-----------|
+
+16:01:35.978 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=110,quantity=200)
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=110,quantity=200)(Limit(side=BUY,orderId=3,price=100,quantity=10))
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=115,quantity=5000)
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=115,quantity=5000)(Limit(side=BUY,orderId=3,price=100,quantity=10))
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=119,quantity=5600)
+16:01:35.978 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=119,quantity=5600)(Limit(side=BUY,orderId=3,price=100,quantity=10))
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=100
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=61
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
+16:01:35.978 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
+16:01:35.979 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
+16:01:35.979 [main] INFO  c.sequencer.consumer.LoggingConsumer - [12] 
+|----BID-----|
+    100 @ 98
+    200 @ 95
+    300 @ 91
+|----ASK-----|
+    61 @ 100
+   200 @ 110
+  5000 @ 115
+  5600 @ 119
+
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:61
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
+16:01:35.979 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.979 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.980 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+ |----BID-----||----ASK----|
+    100 @ 98    61 @ 100
+    200 @ 95   200 @ 110
+    300 @ 91  5000 @ 115
+          -   5600 @ 119
+|------------||-----------|
+
+16:01:35.980 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=110,quantity=200)
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=110,quantity=200)(Limit(side=BUY,orderId=2,price=100,quantity=10))
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=115,quantity=5000)
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=115,quantity=5000)(Limit(side=BUY,orderId=2,price=100,quantity=10))
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] visiting LevelOrderBookLevel(price=119,quantity=5600)
+16:01:35.980 [main] INFO  c.o.v.MutatingMatchOneOrderVisitor - [ORDERBOOK] Can't match order:MktData(price=119,quantity=5600)(Limit(side=BUY,orderId=2,price=100,quantity=10))
+16:01:35.980 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Bid Side Size: 3
+16:01:35.980 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=98 Qty=100
+16:01:35.980 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=95 Qty=200
+16:01:35.980 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg BID: Price=91 Qty=300
+16:01:35.980 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Ask Side Size: 4
+16:01:35.981 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=100 Qty=61
+16:01:35.981 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=110 Qty=200
+16:01:35.981 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=115 Qty=5000
+16:01:35.981 [main] DEBUG c.o.v.ReadOnlyMarketDataChannelPublishVisitor - Adding Mkt Data Msg ASK: Price=119 Qty=5600
+16:01:35.981 [main] INFO  c.o.channel.MarketDataChannel - [ORDERBOOK] Sending market data update...
+16:01:35.981 [main] INFO  c.sequencer.consumer.LoggingConsumer - [13] 
+|----BID-----|
+    100 @ 98
+    200 @ 95
+    300 @ 91
+|----ASK-----|
+    61 @ 100
+   200 @ 110
+  5000 @ 115
+  5600 @ 119
+
+16:01:35.981 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:98 quantity:100
+16:01:35.981 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:200
+16:01:35.982 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.982 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:100 quantity:61
+16:01:35.982 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:200
+16:01:35.982 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:115 quantity:5000
+16:01:35.982 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.982 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.982 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+ |----BID-----||----ASK----|
+    100 @ 98    61 @ 100
+    200 @ 95   200 @ 110
+    300 @ 91  5000 @ 115
+          -   5600 @ 119
+|------------||-----------|
+
+16:01:35.982 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.983 [main] INFO  c.sequencer.consumer.LoggingConsumer - [14] 
 |----BID-----|
     100 @ 95
     200 @ 93
@@ -488,37 +348,37 @@ active orders are [codingblackfemales.sotw.ChildOrder@13b6aecc]
   5000 @ 110
   5600 @ 119
 
-14:28:22.111 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Processing Mkt Data Update
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=98,quantity=100)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:98
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=95,quantity=200)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:95
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=91,quantity=300)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:91
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=95,quantity=100)
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=93,quantity=200)
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=91,quantity=300)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=100,quantity=101)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:100
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=110,quantity=200)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:110
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=115,quantity=5000)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:115
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=119,quantity=5600)
-14:28:22.111 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:119
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=98,quantity=501)
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=101,quantity=200)
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=110,quantity=5000)
-14:28:22.111 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=119,quantity=5600)
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:100
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:93 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:501
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:101 quantity:200
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:5000
-14:28:22.111 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
+16:01:35.983 [main] INFO  c.orderbook.OrderBook - [ORDERBOOK] Processing Mkt Data Update
+16:01:35.983 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=98,quantity=100)
+16:01:35.984 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:98
+16:01:35.984 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=95,quantity=200)
+16:01:35.984 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:95
+16:01:35.984 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=91,quantity=300)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:91
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=95,quantity=100)
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=93,quantity=200)
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=91,quantity=300)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=100,quantity=61)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:100
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=110,quantity=200)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:110
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=115,quantity=5000)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:115
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing market data order:MktData(price=119,quantity=5600)
+16:01:35.985 [main] INFO  c.o.v.MutatingRemoveAllMarketDataOrdersVisitor - [ORDERBOOK] Removing level:119
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=98,quantity=501)
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=101,quantity=200)
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=110,quantity=5000)
+16:01:35.985 [main] DEBUG c.orderbook.OrderBook - [ORDERBOOK] ASK: Adding orderMktData(price=119,quantity=5600)
+16:01:35.985 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:95 quantity:100
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:93 quantity:200
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] BID: price:91 quantity:300
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:98 quantity:501
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:101 quantity:200
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:110 quantity:5000
+16:01:35.986 [main] DEBUG c.service.MarketDataService - [ALGO] ASK: price:119 quantity:5600
+16:01:35.986 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] In Algo Logic.... HeLlO
+16:01:35.986 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] The state of the order book is:
  |----BID-----||----ASK----|
     100 @ 95    501 @ 98
     200 @ 93   200 @ 101
@@ -526,7 +386,7 @@ active orders are [codingblackfemales.sotw.ChildOrder@13b6aecc]
           -   5600 @ 119
 |------------||-----------|
 
-14:28:22.111 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
+16:01:35.986 [main] INFO  c.gettingstarted.MyAlgoLogic - [MYALGO] Have:4 children, want 4, done.
 ]]></system-out>
   </testcase>
 </testsuite>
