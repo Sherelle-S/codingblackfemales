@@ -63,6 +63,7 @@ public class MyAlgoLogic implements AlgoLogic {
             logger.info("[MYALGO] Have:" + state.getChildOrders().size() + " children, want 45, joining passive side of book with: " + quantity + " @ " + price);
             System.out.println(new CreateChildOrder(Side.BUY, quantity, price));
             System.out.println("active orders are " +state.getActiveChildOrders().toString());
+            
             return new CreateChildOrder(Side.BUY, quantity, price);
         }else if(activeOrders.size() > 10){
             final var option = activeOrders.stream().findFirst();

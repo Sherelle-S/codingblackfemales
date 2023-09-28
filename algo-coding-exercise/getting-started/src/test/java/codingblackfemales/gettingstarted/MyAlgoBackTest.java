@@ -1,6 +1,7 @@
 package codingblackfemales.gettingstarted;
 
 import codingblackfemales.algo.AlgoLogic;
+import codingblackfemales.container.AlgoContainer;
 import codingblackfemales.sotw.ChildOrder;
 
 import static org.junit.Assert.assertEquals;
@@ -20,6 +21,8 @@ import org.junit.Test;
  *
  */
 public class MyAlgoBackTest extends AbstractAlgoBackTest {
+
+    protected AlgoContainer container;
 
     @Override
     public AlgoLogic createAlgoLogic() {

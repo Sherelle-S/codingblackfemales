@@ -42,6 +42,7 @@ public abstract class AbstractAlgoBackTest extends SequencerTestCase {
         container = new AlgoContainer(new MarketDataService(runTrigger), new OrderService(runTrigger), runTrigger, actioner);
         //set my algo logic
         container.setLogic(createAlgoLogic());
+        // container.setLogic(MyAlgoLogic());
 
         network.addConsumer(new LoggingConsumer());
         network.addConsumer(book);
