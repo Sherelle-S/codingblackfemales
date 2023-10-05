@@ -17,7 +17,7 @@ public class SimpleAlgoStateImpl implements SimpleAlgoState {
         this.marketDataService = marketDataService;
         this.orderService = orderService;
     }
-
+ 
     @Override
     public long getInstrumentId() {
         return marketDataService.getInstrumentId();

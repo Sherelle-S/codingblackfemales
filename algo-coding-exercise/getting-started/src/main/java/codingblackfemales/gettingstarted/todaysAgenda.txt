@@ -1,0 +1,36 @@
+.look at adding a setTimeOut logic that checks the market every 15 minutes. 
+add results to an arraylist
+traverse the list once list size becomes > 3. check last 3 entries, if price has increased consecutiveley sell. 
+if price has decreased consecutiveley buy.
+
+
+
+check the test and backtest use them to create your own market ticks
+
+mvn test > Output.txt
+
+
+info from output.txt
+17:50:51.439 [main] INFO codingblackfemales.marketdata.gen.RandomMarketDataGeneratorTest - BookUpdateImpl{instrumentId=1, venue=XLON, instrumentStatus=CONTINUOUS, bidBook=[BookEntry{price=1174, size=48}, BookEntry{price=1172, size=85}], askBook=[BookEntry{price=1195, size=87}, BookEntry{price=1196, size=52}, BookEntry{price=1196, size=69}, BookEntry{price=1200, size=68}, BookEntry{price=1205, size=95}, BookEntry{price=1210, size=69}, BookEntry{price=1212, size=95}, BookEntry{price=1216, size=50}, BookEntry{price=1263, size=75}, BookEntry{price=1269, size=40}, BookEntry{price=1275, size=78}, BookEntry{price=1283, size=6}]}
+17:50:51.439 [main] DEBUG codingblackfemales.marketdata.gen.RandomMarketDataGenerator - qty_update side=[Buy] idx=[0] qty=[5]
+17:50:51.439 [main] DEBUG codingblackfemales.marketdata.gen.RandomMarketDataGenerator - price_update side=[Sell] idx=[9] price=[1275]
+17:50:51.439 [main] INFO codingblackfemales.marketdata.gen.RandomMarketDataGeneratorTest - RandomMarketDataGenerator{
+ mid=1184 spraed=21 spreadMultiplier=5
+ bid=1174 min/max=(1164/1184)
+ ask=1195 min/max=(1184/1284)
+ buys=
+	Trade{price=1174, qty=5}
+	Trade{price=1172, qty=85}
+ sells=
+	Trade{price=1195, qty=87}
+	Trade{price=1196, qty=52}
+	Trade{price=1196, qty=69}
+	Trade{price=1200, qty=68}
+	Trade{price=1205, qty=95}
+	Trade{price=1210, qty=69}
+	Trade{price=1212, qty=95}
+	Trade{price=1263, qty=75}
+	Trade{price=1269, qty=40}
+	Trade{price=1275, qty=78}
+	Trade{price=1275, qty=50}
+	Trade{price=1283, qty=6}}
